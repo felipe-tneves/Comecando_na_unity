@@ -2,6 +2,12 @@ using UnityEngine;
 
 public class Exercicio01 : MonoBehaviour
 {
+    //01 - (Verificação de pontos de vida) Um personagem perde pontos
+    //de vida após uma batalha. Verifique se ele ainda está vivo. Caso
+    //tenha mais de 0 pontos de vida, exiba "Personagem Vivo", caso
+    //contrário, "Game Over".
+
+
     [SerializeField] int vidaPlayer = 100;
     string resultado;
     void Start()
