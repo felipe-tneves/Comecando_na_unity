@@ -29,15 +29,17 @@ public class Geral : MonoBehaviour
         char apelido = 'A';
     */
 
-    [SerializeField] int vidaHeroi = 100;
-    [SerializeField] int vidaVilao = 300;
-    string resultado;
+    //[SerializeField] int vidaHeroi = 100;
+    //[SerializeField] int vidaVilao = 300;
+    //string resultado;
+
+    [SerializeField] int estadoVilao = 1;
 
     void Start()
     {
-        print(vidaVilao == vidaHeroi);//false
-        print(vidaHeroi <= vidaVilao);//true
-        print(vidaVilao != vidaHeroi);//true
+        //print(vidaVilao == vidaHeroi);//false
+        //print(vidaHeroi <= vidaVilao);//true
+        //print(vidaVilao != vidaHeroi);//true
 
         //Operador ternário
         //codição ? valor a ser atribuido caso verdadeiro : caso falso
@@ -46,29 +48,57 @@ public class Geral : MonoBehaviour
         //print(resultado);
 
         //Estrutura condicional
-        if(vidaHeroi < vidaVilao)
-        {
-            resultado = "Vida Heroi Menor";
-            print(resultado);
+        //if(vidaHeroi < vidaVilao)
+        //{
+        //    resultado = "Vida Heroi Menor";
+        //    print(resultado);
 
-        }
-        else if(vidaHeroi == vidaVilao)
-        {
-            resultado = "Vida Heroi igual a vida Vilao";
-            print(resultado);
+        //}
+        //else if(vidaHeroi == vidaVilao)
+        //{
+        //    resultado = "Vida Heroi igual a vida Vilao";
+        //    print(resultado);
 
-        }
-        else
+        //}
+        //else
+        //{
+        //    resultado = "Vida Heroi Maior";
+        //    print(resultado);
+        //}
+
+        //estado 01: vilão ataca
+        //estado 02: vilão defende
+        //estado 03: vilão toma dano
+
+        switch (estadoVilao)
         {
-            resultado = "Vida Heroi Maior";
-            print(resultado);
+            case 1:
+                print("Vilaão atacando");
+                if (true)
+                {
+                    print("Danoo");
+                }
+                break;
+
+            case 2:
+                print("Vilão defende");
+                break;
+
+
+            case 3:
+                print("Vilão tomando um coro");
+                break;
+
+            default:
+                print("Valor não identificado");
+                break;
         }
 
     }
 
     void Update()
     {
-       
+
     }
 
 }
