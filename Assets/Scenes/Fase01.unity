@@ -596,13 +596,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 545515399}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c757c5970f8a31846848b1751df4820d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vidaHeroi: 100
-  vidaVilao: 300
+  estadoVilao: 5
 --- !u!1 &560007510
 GameObject:
   m_ObjectHideFlags: 0
@@ -2449,6 +2448,7 @@ GameObject:
   - component: {fileID: 2027673291}
   - component: {fileID: 2027673295}
   - component: {fileID: 2027673296}
+  - component: {fileID: 2027673297}
   m_Layer: 0
   m_Name: knight_f_run_anim_f3 (2)
   m_TagString: Untagged
@@ -2610,12 +2610,25 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2027673290}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 417cbfe144f419c48a7b96de5bb1edb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vidaPlayer: 1000
+  vidaPlayer: 0
+--- !u!114 &2027673297
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2027673290}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e64436afcfc74b54ebdb153731b37147, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  powerUp: 1
 --- !u!1 &2056661221
 GameObject:
   m_ObjectHideFlags: 0
