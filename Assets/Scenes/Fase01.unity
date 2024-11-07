@@ -287,7 +287,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 312678970}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f32cf32092a3aea429950a29a6ed15a2, type: 3}
   m_Name: 
@@ -336,7 +336,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: e4d1ae72015a1a64bac6f49ce54b35a5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -553,6 +553,7 @@ GameObject:
   - component: {fileID: 545515405}
   - component: {fileID: 545515406}
   - component: {fileID: 545515407}
+  - component: {fileID: 545515408}
   m_Layer: 0
   m_Name: knight_f_run_anim_f3
   m_TagString: Untagged
@@ -746,6 +747,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mago: 1
   guerreiro: 0
+--- !u!114 &545515408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 545515399}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35fa61d6084a3064a93290782b982474, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dias: 0
+  horas: 0
+  segundos: 0
 --- !u!1 &560007510
 GameObject:
   m_ObjectHideFlags: 0
