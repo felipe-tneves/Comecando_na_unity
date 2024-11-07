@@ -273,6 +273,10 @@ GameObject:
   - component: {fileID: 312678973}
   - component: {fileID: 312678972}
   - component: {fileID: 312678971}
+  - component: {fileID: 312678974}
+  - component: {fileID: 312678975}
+  - component: {fileID: 312678976}
+  - component: {fileID: 312678977}
   m_Layer: 0
   m_Name: ogre_run_anim_f2
   m_TagString: Untagged
@@ -363,6 +367,61 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &312678974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 312678970}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79fb17c6c8f33264c8d6fe086820bbad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  placarTimeA: 4
+  placarTimeB: 4
+--- !u!114 &312678975
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 312678970}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98606256b2be5ad4bb547406ad822f56, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tipoItem: Cogumelo
+  moeda: 10
+  escudo: 0
+  pocaoVida: 0
+--- !u!114 &312678976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 312678970}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a3831538d0d4fd498da397670d8a5a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  estado: 5
+--- !u!114 &312678977
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 312678970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bd443ad954138a47a589918c02767a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &379098854
 GameObject:
   m_ObjectHideFlags: 0
@@ -754,7 +813,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 545515399}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 35fa61d6084a3064a93290782b982474, type: 3}
   m_Name: 
