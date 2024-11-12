@@ -17,7 +17,7 @@ public class LacoRepeticao : MonoBehaviour
 
 
     //Criando uma lista de inteiros chamada 'nums'
-    List<int> nums = new List<int>();
+    //List<int> nums = new List<int>();
 
 
     void Start()
@@ -89,15 +89,15 @@ public class LacoRepeticao : MonoBehaviour
         //------------------------------------------------------
         
         //Adiciona elementos á lista de nums
-        nums.Add(1); // indice 0
-        nums.Add(2); // indice 1
-        nums.Add(3); // indice 2
-        nums.Add(4);
-        nums.Add(4);
-        nums.Add(5);
-        nums.Add(6);
-        nums.Add(7);
-        nums.Add(8); // indice 8
+        //nums.Add(1); // indice 0
+        //nums.Add(2); // indice 1
+        //nums.Add(3); // indice 2
+        //nums.Add(4);
+        //nums.Add(4);
+        //nums.Add(5);
+        //nums.Add(6);
+        //nums.Add(7);
+        //nums.Add(8); // indice 8
 
         //Remove o primeiro valor '4' encontrado na lista (indice 3) 
         //nums.Remove(4);
@@ -107,7 +107,7 @@ public class LacoRepeticao : MonoBehaviour
 
         //nums.Reverse();
 
-        nums.IndexOf(5);
+        //nums.IndexOf(5);
 
 
 
